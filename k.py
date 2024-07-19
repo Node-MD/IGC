@@ -1301,9 +1301,9 @@ if __name__=='__main__':
 	except:pass
 	try:
 		with requests.Session() as ses:
-	         ko = ses.get('https://pastebin.com/raw/Wz2uxUBr').json()
+	         ko = ses.get('https://pastebin.com/edit/WW9BmwZV').json()
 	         HARIS.update(ko)
-	         ki = ses.get('https://pastebin.com/raw/3j0YPH3K').json()
+	         ki = ses.get('https://pastebin.com/raw/1DUGECX3').json()
 	         HARIS1.update(ki)
 	         os.system("git pull")
 	         login_kamu()
